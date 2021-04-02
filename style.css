@@ -1,0 +1,30 @@
+#canvas {
+    position: absolute;
+    width: 35vh;
+    height: 35vh;
+    overflow: hidden;
+    bottom: 5px;
+    right: 5px;
+}
+
+@font-face {
+    font-family: 'lexend';
+    src: url(assets/fonts/LexendDeca-Regular.ttf);
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+}
